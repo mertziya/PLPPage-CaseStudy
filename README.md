@@ -1,6 +1,6 @@
 # 🛒 PLPPage-CaseStudy
 
-[App Demo Vıdeo](https://www.dropbox.com/scl/fi/9sneva4jmzcbj76wb98om/LoncaCase.MP4?rlkey=gp84qxqnowvdo3b8h3cv3mnwp&st=q3mbsl1d&raw=1)
+[App Demo Vıdeo](https://www.dropbox.com/scl/fi/41cik34d24xi6h0l7t7b5/LoncaCase.MP4?rlkey=unqc7htws1s3p4iop3511raqt&st=g42oqjlj&raw=1)
 
 This project is a case study provided by **[Lonca.co](https://lonca.co)**, focused on building a simplified mobile **Product Listing Page (PLP)** experience for an e-commerce platform. The mobile frontend is developed using **React Native**, while the backend is built with **Node.js**, serving mock product data via RESTful APIs.
 
@@ -119,11 +119,14 @@ Returns detailed info for a single product.
 
 ## 📱 Mobile App Imlementation (React Native)
 
-[App Demo Vıdeo](https://www.dropbox.com/scl/fi/9sneva4jmzcbj76wb98om/LoncaCase.MP4?rlkey=gp84qxqnowvdo3b8h3cv3mnwp&st=q3mbsl1d&raw=1)
+[App Demo Vıdeo](https://www.dropbox.com/scl/fi/41cik34d24xi6h0l7t7b5/LoncaCase.MP4?rlkey=unqc7htws1s3p4iop3511raqt&st=g42oqjlj&raw=1)
 
 | Mobile App Demo      | 
 |----------------------|
-| ![LoncaReactNativeGIF](https://github.com/user-attachments/assets/cfefbd2f-5401-4d76-89be-9f40b2570b5e) |
+| ![LoncaGIF](https://github.com/user-attachments/assets/9b761281-a129-4e2a-97d7-6821af002009) |
+
+
+
 
 * The mobile app is built with **React Native** using **Expo** for fast development and testing. I utilized Expo’s **file-based routing** to manage tab and stack navigation efficiently. The app architecture separates the **UI and network logic** using custom hooks. State is managed with `useState`, `useEffect`, and global context via `useContext` to keep the app simple, reactive, and maintainable.
 
