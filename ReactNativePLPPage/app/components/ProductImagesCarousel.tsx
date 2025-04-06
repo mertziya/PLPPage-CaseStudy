@@ -11,7 +11,7 @@ import {
 } from 'react-native';
 
 const { width: screenWidth } = Dimensions.get('window');
-const IMAGE_ASPECT_RATIO = 520 / 400; // height / width
+const IMAGE_ASPECT_RATIO = 2916 / 1944 ; // height / width
 
 type Props = {
   images: string[];
@@ -148,7 +148,7 @@ const styles = StyleSheet.create({
     paddingVertical: 4,
   },
   counterText: {
-    color: '#fff',
+    color: '#000',
     fontSize: 13,
     fontWeight: '500',
   },

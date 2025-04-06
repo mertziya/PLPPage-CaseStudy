@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { View, Text, TouchableOpacity, StyleSheet } from 'react-native';
+import { View, Text, TouchableOpacity, StyleSheet, ScrollView } from 'react-native';
 import { Collapsible } from '@/components/Collapsible';
 import { CapsuleInfo } from './CapsuleInfo';
 import { Colors } from '@/constants/Colors';
@@ -39,20 +39,25 @@ const DetailsOfProduct: React.FC<ProductDetailsProps> = ({
       </View>
 
       {/* Row 2: Quantity Detail and Item Quantity */}
-      <View style={styles.row}>
+      <ScrollView
+        horizontal
+        showsHorizontalScrollIndicator={false}
+        contentContainerStyle={{ paddingHorizontal: 0 }}
+        style={{ marginBottom: 16 }}
+      >
         <CapsuleInfo
           iconName="cube-outline"
           text={`${item_quantity} items left`}
           textColor="#fff"
-          backgroundColor= {Colors.light.tintColor}
+          backgroundColor={Colors.light.tintColor}
         />
         <CapsuleInfo
           iconName="information-outline"
           text={quantityDetail}
           textColor="#fff"
-          backgroundColor= {Colors.light.tintColor}
+          backgroundColor={Colors.light.tintColor}
         />
-      </View>
+      </ScrollView>
 
       {/* Row 3: Vendor Name */}
       {vendorName && (

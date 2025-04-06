@@ -16,7 +16,7 @@ const ProductDetails = () => {
   useLayoutEffect(() => {
     navigation.setOptions({
       headerBackTitleVisible: false,
-      headerTitle: '',
+      headerTitle: `${fetchedProduct?.names?.en ?? ''}`,
       headerTransparent: true,
       headerShadowVisible: true,
       headerLeft: () => (
@@ -25,7 +25,7 @@ const ProductDetails = () => {
         </TouchableOpacity>
       ),
     });
-  }, [navigation]);
+  }, [navigation, fetchedProduct]);
 
   if (loading) {
     return (
