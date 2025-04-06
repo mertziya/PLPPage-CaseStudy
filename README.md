@@ -31,7 +31,7 @@ All requests are served locally via **localhost**.
 <br>
 
 
-## 📐 Design File Implementation
+## 📐 Design File Implementation (Figma)
 
 The UI was designed on Figma before moving to implementation. You can access the design here:
 
