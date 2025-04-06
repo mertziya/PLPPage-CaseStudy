@@ -48,7 +48,7 @@ The UI was designed on Figma before moving to implementation. You can access the
 
 
 
-## 🧪 Backend Implementation (Node.js)
+## ⚙️ Backend Implementation (Node.js)
 
 The backend uses **Express.js** with [ProductsMockData.json](https://www.dropbox.com/scl/fi/ctyti8fjmn21xyis49xrn/ProductsMockData.json?rlkey=vm55hixlt5r5g0nwcpmdyjh21&st=ytm7ihms&raw=1) to serve product data.
 
@@ -131,7 +131,7 @@ Returns detailed info for a single product.
 <br>
 <br>
 
-## How to Use?
+## ❓ How to Use
 
 ### 1. Clone the Repository
 ```bash
